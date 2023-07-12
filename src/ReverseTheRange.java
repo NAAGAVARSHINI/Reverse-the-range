@@ -5,7 +5,7 @@ public class ReverseTheRange {
     public static int[] Reverse(int array[], int b, int c){
         int size = array.length;
         int i= b;
-        int j=size-1;
+        int j=c;
         while(i<j){
             int temp = array[i];
             array[i]= array[j];
